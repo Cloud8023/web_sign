@@ -2,9 +2,9 @@ import requests
 import os
 
 # 设置环境变量
-USERNAME = os.getenv("SIGNIN_USERNAME")
-PASSWORD = os.getenv("SIGNIN_PASSWORD")
-COOKIE = os.getenv("SIGNIN_COOKIE")
+USERNAME = os.getenv("Y3LT_SIGNIN_USERNAME")
+PASSWORD = os.getenv("Y3LT_SIGNIN_PASSWORD")
+COOKIE = os.getenv("Y3LT_SIGNIN_COOKIE")
 
 # 登录
 def login():
